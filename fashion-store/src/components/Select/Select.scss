@@ -1,0 +1,25 @@
+@import "../../style/index";
+
+.content-select {
+  left: auto;
+  right: 0;
+  margin-top: 15px;
+  margin-right: 143px;
+  select {
+    margin-left: auto;
+    border: none;
+    background: transparent;
+    color: white;
+    font-size: 12px;
+    text-transform: capitalize;
+    outline: none;
+    option {
+      background: gray;
+    }
+  }
+  & div {
+    margin-left: 15px;
+    color: white;
+    font-size: 12px;
+  }
+}

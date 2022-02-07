@@ -1,0 +1,6 @@
+@import "./style/index";
+.App {
+  @media (max-width: 765px) {
+    width: 810px;
+  }
+}

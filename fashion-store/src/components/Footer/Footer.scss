@@ -1,0 +1,107 @@
+footer {
+  background: #efefef;
+  & > div:nth-child(1) {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    margin: 0 auto;
+    padding: 19px 0;
+    @media (max-width: 700px) {
+      width: 80%;
+    }
+    @media (max-width: 600px) {
+      flex-direction: column;
+      align-items: center;
+      width: 50%;
+      gap: 10px;
+      & > div {
+        align-items: flex-start;
+        width: 100%;
+      }
+    }
+    & > div {
+      display: flex;
+      gap: 13px;
+      align-items: center;
+      cursor: pointer;
+    }
+  }
+  & > div:nth-child(2) {
+    background: #333333 0% 0% no-repeat padding-box;
+    padding-top: 68px;
+    padding-bottom: 28px;
+    & > div {
+      color: #fff;
+      width: 86%;
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+    }
+  }
+  .footer-socila-icons {
+    display: flex;
+    gap: 20px;
+    img {
+      cursor: pointer;
+      width: 23px;
+      height: 23px;
+    }
+  }
+  .footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 50px;
+    p {
+      font-size: 12px;
+    }
+    div {
+      display: flex;
+      gap: 20px;
+    }
+  }
+  .footer-map {
+    display: flex;
+    width: 70%;
+    justify-content: space-between;
+    @media (max-width: 900px) {
+      width: 100%;
+      margin-bottom: 20px;
+    }
+    @media (max-width: 600px) {
+      flex-wrap: wrap;
+      ul {
+        margin-bottom: 20px;
+      }
+    }
+
+    ul {
+      list-style: none;
+      color: #efefef;
+      max-width: 190px;
+      & > li:nth-child(1) {
+        font-weight: 600;
+        font-size: 16px;
+
+        margin-bottom: 18px;
+      }
+      li {
+        margin-bottom: 9px;
+        font-size: 12px;
+        a {
+          color: #fff;
+          text-decoration: underline;
+        }
+      }
+      @media (max-width: 900px) {
+        width: 50%;
+      }
+    }
+  }
+  .footer-company-logo {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+  }
+}

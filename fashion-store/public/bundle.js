@@ -1,0 +1,1 @@
+console.error("\n/home/acer/fashion-store/src/App.js:1\nimport \"./App.scss\";\n^\nParseError: 'import' and 'export' may appear only with 'sourceType: module'");

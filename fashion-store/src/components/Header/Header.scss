@@ -1,0 +1,16 @@
+@import "../../style/index";
+header {
+  background-color: #263d9a;
+  color: white;
+  display: flex;
+  justify-content: center;
+  grid-gap: 20px;
+  gap: 20px;
+  padding: 13px 0;
+}
+
+header span {
+  font-weight: 400;
+  font-style: italic;
+  font-size: 14px;
+}

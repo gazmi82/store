@@ -1,0 +1,9 @@
+export { default as Buttons } from "./Buttons";
+export { default as NavBar } from "./NavBar";
+export { default as Header } from "./Header";
+export { default as FirstSlider } from "./FirstSlider";
+export { default as GenderSection } from "./GenderSection";
+export { default as BrandSection } from "./BrandSection";
+export { default as NewItemSlide } from "./NewItemSlider";
+export { default as FySlide } from "./FySlide";
+export { default as Footer } from "./Footer";
